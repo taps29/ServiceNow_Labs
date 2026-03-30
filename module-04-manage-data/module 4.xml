@@ -1,26 +1,992 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<unload unload_date="2026-03-24 11:35:15">
-<sys_update_set action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-26 10:03:26">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Global">global</application>
-<base_update_set display_value=""/>
-<completed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</completed_by>
-<completed_on>2026-03-24 11:35:02</completed_on>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
 <description/>
-<install_date/>
-<installed_from/>
-<is_default>false</is_default>
-<merged_to display_value=""/>
+<inserted/>
 <name>Module_4</name>
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
-<remote_sys_id display_value=""/>
-<state>complete</state>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>759c9729c1b332107f442963ae1ebdb0</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2026-03-23 10:51:33</sys_created_on>
-<sys_id>759c9729c1b332107f442963ae1ebdb0</sys_id>
-<sys_mod_count>1</sys_mod_count>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>a66e2eea98b732107f44ab4eb33b8b03</sys_id>
+<sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2026-03-24 11:35:02</sys_updated_on>
-</sys_update_set>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_device_number</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_number" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Device Number</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device Number</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_number</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>70d9ffb1287332107f441054a756e57c</sys_id><sys_name>Device Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_device_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>2069937566</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>226e2eea98b732107f44ab4eb33b8b06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f7ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Device Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>89d9ffb18373321065cc00cfc94947c5</update_guid>
+<update_guid_history>89d9ffb18373321065cc00cfc94947c5:2069937566</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_c04abf71287332107f441054a756e5ed</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD Cis"&gt;ed0a37f1287332107f441054a756e52c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:39:20&lt;/sys_created_on&gt;&lt;sys_id&gt;c04abf71287332107f441054a756e5ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_c04abf71287332107f441054a756e5ed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:39:20&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-202585489</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>226e2eea98b732107f44ab4eb33b8b09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec8a8d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>0c4abf71c3733210005fb862219b1bef</update_guid>
+<update_guid_history>0c4abf71c3733210005fb862219b1bef:-202585489</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_aa6bfb35287332107f441054a756e5a3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:aa6bfb35287332107f441054a756e5a3/infinity_hhd-updates.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time, partition_info) {
+
+ // Add your code here to insert data to import_set_table 
+
+})(import_set_table, data_source, import_log, last_success_import_time, partition_info);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;infinity_hhd-updates.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_hhd_imports&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;infinity_hhd-updates.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;aa6bfb35287332107f441054a756e5a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;infinity_hhd-updates.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_aa6bfb35287332107f441054a756e5a3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:44:25&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-733305044</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>266e2eea98b732107f44ab4eb33b8b05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ecd51cd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>infinity_hhd-updates.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>be6bbf351d7332100fd84600e28ee8bd</update_guid>
+<update_guid_history>be6bbf351d7332100fd84600e28ee8bd:-733305044,f66bbf35277332102c6a5d38f14a52bc:-1700637909</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_044a7bf1287332107f441054a756e52d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD Cis"&gt;ed0a37f1287332107f441054a756e52c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_asset_tag&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:39:20&lt;/sys_created_on&gt;&lt;sys_id&gt;044a7bf1287332107f441054a756e52d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_asset_tag&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_044a7bf1287332107f441054a756e52d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:39:20&lt;/sys_updated_on&gt;&lt;target_field&gt;asset_tag&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2124698617</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>266e2eea98b732107f44ab4eb33b8b08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec8a9460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_asset_tag</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>844a7bf1d87332107c6599441cba572e</update_guid>
+<update_guid_history>844a7bf1d87332107c6599441cba572e:2124698617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_89cc9b29c1b332107f442963ae1ebd7c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">b9a11f69c17332107f442963ae1ebde1</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_hardware_hhd</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handhled_device_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 10:52:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>89cc9b29c1b332107f442963ae1ebd7c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_89cc9b29c1b332107f442963ae1ebd7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 10:57:36</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1958402557</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>2a6e2eea98b732107f44ab4eb33b8b04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a57d1850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>7e0edf295ab33210a2170aca91945400</update_guid>
+<update_guid_history>7e0edf295ab33210a2170aca91945400:-1958402557,44fc5329dab33210cf01c05e882022de:-1673492580</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ebf1afadc1b332107f442963ae1ebd7c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_hardware_hhd.asset_tag</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:14:51</sys_created_on><sys_id>ebf1afadc1b332107f442963ae1ebd7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.asset_tag</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_ebf1afadc1b332107f442963ae1ebd7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:14:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-876720422</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>2a6e2eea98b732107f44ab4eb33b8b07</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a679fa80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd.asset_tag</table>
+<target_name>u_cmdb_ci_hardware_hhd.asset_tag</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>aff1afadf9b33210111735bc165b2a7e</update_guid>
+<update_guid_history>aff1afadf9b33210111735bc165b2a7e:-876720422</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmdb_rel_type_suggest_dfa2004e287332107f441054a756e52a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_rel_type_suggest"><cmdb_rel_type_suggest action="INSERT_OR_UPDATE"><base_class>service_offering</base_class><child>false</child><cmdb_rel_type display_value="Runs on::Runs">60bc4e22c0a8010e01f074cbe6bd73c3</cmdb_rel_type><dependent_class>u_cmdb_ci_hardware_hhd</dependent_class><parent>true</parent><relationship>parent:60bc4e22c0a8010e01f074cbe6bd73c3</relationship><sys_class_name>cmdb_rel_type_suggest</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 08:16:08</sys_created_on><sys_id>dfa2004e287332107f441054a756e52a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>service_offering</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>cmdb_rel_type_suggest_dfa2004e287332107f441054a756e52a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 08:16:08</sys_updated_on></cmdb_rel_type_suggest></record_update>]]></payload>
+<payload_hash>-1307176109</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>2e6e2eea98b732107f44ab4eb33b8b03</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1eea5d550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>service_offering</target_name>
+<type>Suggested Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>2ba2c48e017332101aaec46979db87e5</update_guid>
+<update_guid_history>2ba2c48e017332101aaec46979db87e5:-1307176109</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_owner_location</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_owner_location" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Owner Location</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Owner Location</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_owner_location</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>42</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>7cd9ffb1287332107f441054a756e57e</sys_id><sys_name>Owner Location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_owner_location</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>615538773</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>2e6e2eea98b732107f44ab4eb33b8b06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f8390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Owner Location</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>01d9ffb139733210e95cc7e4f51e09c9</update_guid>
+<update_guid_history>01d9ffb139733210e95cc7e4f51e09c9:615538773</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_view_57293f71287332107f441054a756e5a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>import_validation</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:34:38</sys_created_on><sys_id>57293f71287332107f441054a756e5a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import validation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_view_57293f71287332107f441054a756e5a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:34:38</sys_updated_on><title>Import validation</title><user/></sys_ui_view></record_update>]]></payload>
+<payload_hash>383109354</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>2e6e2eea98b732107f44ab4eb33b8b09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec45bb00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>Import validation</target_name>
+<type>UI View</type>
+<update_domain>global</update_domain>
+<update_guid>17293f71147332108d91828d13f4f1a5</update_guid>
+<update_guid_history>17293f71147332108d91828d13f4f1a5:383109354</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_5ec937b1287332107f441054a756e54c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:5ec937b1287332107f441054a756e54c/infinity_hhd-data.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time, partition_info) {
+
+ // Add your code here to insert data to import_set_table 
+
+})(import_set_table, data_source, import_log, last_success_import_time, partition_info);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;infinity_hhd-data.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_hhd_imports&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;infinity_hhd-data.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;5ec937b1287332107f441054a756e54c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;infinity_hhd-data.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_5ec937b1287332107f441054a756e54c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:37:29&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>155498106</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>626e2eea98b732107f44ab4eb33b8b05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6fae30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>infinity_hhd-data.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>99d9ffb1297332109aa4a650a6c5f8f0</update_guid>
+<update_guid_history>99d9ffb1297332109aa4a650a6c5f8f0:155498106,d1d9ffb15a73321083381c666ff01eef:634457529</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_87af5fe9c1b332107f442963ae1ebd42</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:06:38</sys_created_on><sys_id>87af5fe9c1b332107f442963ae1ebd42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.u_holographic_handhled_device_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">739f572dc1b332107f442963ae1ebdc8</sys_security_acl><sys_update_name>sys_security_acl_role_87af5fe9c1b332107f442963ae1ebd42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:06:38</sys_updated_on><sys_user_role display_value="u_holographic_handhled_device_user" name="u_holographic_handhled_device_user">4c9993e1c1b332107f442963ae1ebd6b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1456129698</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>626e2eea98b732107f44ab4eb33b8b08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a6019d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>739f572dc1b332107f442963ae1ebdc8</table>
+<target_name>.u_holographic_handhled_device_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>db10af2d9eb3321032a494d3b476a7dc</update_guid>
+<update_guid_history>db10af2d9eb3321032a494d3b476a7dc:1456129698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_8899d725c1b332107f442963ae1ebdf1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">b9a11f69c17332107f442963ae1ebde1</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Holographic Handhled Devices</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_hardware_hhd</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handhled_device_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 10:38:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8899d725c1b332107f442963ae1ebdf1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HHDs And Assignees</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_8899d725c1b332107f442963ae1ebdf1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 10:53:17</sys_updated_on><timeline_page/><title>HHDs And Assignees</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1377574299</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>666e2eea98b732107f44ab4eb33b8b04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a53df190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>HHDs And Assignees</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>e70d136912b33210bbdb7c1e45766a09</update_guid>
+<update_guid_history>e70d136912b33210bbdb7c1e45766a09:-1377574299,c499d7255db33210fd551b0c7509dcf3:20324485</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7971a7adc1b332107f442963ae1ebd3d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offering=7e845b6dc17332107f442963ae1ebdd4^EQ<item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>u_holographic_handheld_hhd_user role required to create HHD incident records</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:12:33</sys_created_on><sys_id>7971a7adc1b332107f442963ae1ebd3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_7971a7adc1b332107f442963ae1ebd3d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:12:33</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1604715020</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>666e2eea98b732107f44ab4eb33b8b07</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a65833e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f971a7ad64b332100b2777ba7737983f</update_guid>
+<update_guid_history>f971a7ad64b332100b2777ba7737983f:-1604715020</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmdb_rel_type_suggest_13a2c48e287332107f441054a756e5e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_rel_type_suggest"><cmdb_rel_type_suggest action="INSERT_OR_UPDATE"><base_class>u_cmdb_ci_hardware_hhd</base_class><child>true</child><cmdb_rel_type display_value="Runs on::Runs">60bc4e22c0a8010e01f074cbe6bd73c3</cmdb_rel_type><dependent_class>service_offering</dependent_class><parent>false</parent><relationship>child:60bc4e22c0a8010e01f074cbe6bd73c3</relationship><sys_class_name>cmdb_rel_type_suggest</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 08:16:08</sys_created_on><sys_id>13a2c48e287332107f441054a756e5e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>cmdb_rel_type_suggest_13a2c48e287332107f441054a756e5e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 08:16:08</sys_updated_on></cmdb_rel_type_suggest></record_update>]]></payload>
+<payload_hash>-1255257810</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>6a6e2eea98b732107f44ab4eb33b8b03</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1eea5d310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Suggested Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>9ba2c48e27733210b638b41aaf422de3</update_guid>
+<update_guid_history>9ba2c48e27733210b638b41aaf422de3:-1255257810</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Name</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>30d9ffb1287332107f441054a756e58e</sys_id><sys_name>Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>193010696</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>6a6e2eea98b732107f44ab4eb33b8b06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f88e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>05d9ffb15a7332101684b1c3f90fa0e5</update_guid>
+<update_guid_history>05d9ffb15a7332101684b1c3f90fa0e5:193010696</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_cmdb_ci_hardware_hhd_import_validation</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="2" view="import_validation"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>serial_number</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="57293f71287332107f441054a756e5a2">b67977b1287332107f441054a756e5d9</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_id>be7977b1287332107f441054a756e5d9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to.location</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="57293f71287332107f441054a756e5a2">b67977b1287332107f441054a756e5d9</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_id>327977b1287332107f441054a756e5da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="57293f71287332107f441054a756e5a2">b67977b1287332107f441054a756e5d9</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_id>b27977b1287332107f441054a756e5da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>asset_tag</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="57293f71287332107f441054a756e5a2">b67977b1287332107f441054a756e5d9</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_id>367977b1287332107f441054a756e5da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_frimware_version</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="57293f71287332107f441054a756e5a2">b67977b1287332107f441054a756e5d9</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_id>b67977b1287332107f441054a756e5da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="57293f71287332107f441054a756e5a2">b67977b1287332107f441054a756e5d9</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_id>3a7977b1287332107f441054a756e5da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_cmdb_ci_hardware_hhd</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:35:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b67977b1287332107f441054a756e5d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_cmdb_ci_hardware_hhd_import_validation</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:35:57</sys_updated_on><sys_user/><view display_value="Import validation" name="import_validation">57293f71287332107f441054a756e5a2</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>579569754</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>6a6e2eea98b732107f44ab4eb33b8b09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec592290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handhled Device</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>367977b1697332105ee3dff2fb296edc</update_guid>
+<update_guid_history>367977b1697332105ee3dff2fb296edc:579569754,932933b1bb733210b33c624937a93938:601687312</update_guid_history>
+<update_set display_value=""/>
+<view>import_validation</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_asset_tag</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_asset_tag" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Asset Tag</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Asset Tag</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_asset_tag</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>f4d9ffb1287332107f441054a756e57d</sys_id><sys_name>Asset Tag</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_asset_tag</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>700812483</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>6e6e2eea98b732107f44ab4eb33b8b05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f81c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Asset Tag</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>45d9ffb1c2733210e38bd17c5c4080c7</update_guid>
+<update_guid_history>45d9ffb1c2733210e38bd17c5c4080c7:700812483</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_56ea77f1287332107f441054a756e5f0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD Cis"&gt;ed0a37f1287332107f441054a756e52c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_device_number&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:42:12&lt;/sys_created_on&gt;&lt;sys_id&gt;56ea77f1287332107f441054a756e5f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_device_number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_56ea77f1287332107f441054a756e5f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:46:14&lt;/sys_updated_on&gt;&lt;target_field&gt;serial_number&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>58161157</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>6e6e2eea98b732107f44ab4eb33b8b08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ecefb0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_device_number</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>59db33755d7332106409d7e8d2e14469</update_guid>
+<update_guid_history>59db33755d7332106409d7e8d2e14469:58161157,5aea77f1167332106027d4045d9965f1:2058646850</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_b9a11f69c17332107f442963ae1ebde1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint>Holographic Handheld Devices</hint><name/><order>100</order><roles>u_holographic_handhled_device_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 10:05:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9a11f69c17332107f442963ae1ebde1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HHD</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_b9a11f69c17332107f442963ae1ebde1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 10:56:36</sys_updated_on><title>HHD</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>107463886</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>a26e2eea98b732107f44ab4eb33b8b04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a56e7000000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>HHD</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>84dd1b69fab33210b585b9bb0378e115</update_guid>
+<update_guid_history>84dd1b69fab33210b585b9bb0378e115:107463886,9c221b69b1733210e2c680663e2ee293:493406698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_739f572dc1b332107f442963ae1ebdc8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offering=7e845b6dc17332107f442963ae1ebdd4^EQ<item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>u_holographic_handheld_hhd_user role required to read HHD incident records</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:06:39</sys_created_on><sys_id>739f572dc1b332107f442963ae1ebdc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_739f572dc1b332107f442963ae1ebdc8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:06:39</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>877412546</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>a26e2eea98b732107f44ab4eb33b8b07</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a601af90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>1f10af2da2b33210b3d748929541f3e0</update_guid>
+<update_guid_history>1f10af2da2b33210b3d748929541f3e0:877412546</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_device_version</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_version" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Device Version</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device Version</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_version</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>f0d9ffb1287332107f441054a756e580</sys_id><sys_name>Device Version</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_device_version</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1905159229</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>a66e2eea98b732107f44ab4eb33b8b06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f8720000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Device Version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c9d9ffb1c47332104d51b16bdc54e6ca</update_guid>
+<update_guid_history>c9d9ffb1c47332104d51b16bdc54e6ca:-1905159229</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_ed0a37f1287332107f441054a756e52c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;HHD Cis&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:39:07&lt;/sys_created_on&gt;&lt;sys_id&gt;ed0a37f1287332107f441054a756e52c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;HHD Cis&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_ed0a37f1287332107f441054a756e52c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:39:07&lt;/sys_updated_on&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1765649354</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>a66e2eea98b732107f44ab4eb33b8b09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec879890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>HHD Cis</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>d13affb15d733210d9ee6ddb78b22440</update_guid>
+<update_guid_history>d13affb15d733210d9ee6ddb78b22440:-1765649354</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_hhd_imports"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>e4d9bfb1287332107f441054a756e555</sys_id><sys_name>u_hhd_imports</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>611310440</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>aa6e2eea98b732107f44ab4eb33b8b05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f60d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8dd9ffb1fd733210771158fc078c76bf</update_guid>
+<update_guid_history>8dd9ffb1fd733210771158fc078c76bf:611310440</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_52ea77f1287332107f441054a756e5f5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD Cis"&gt;ed0a37f1287332107f441054a756e52c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_device_version&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:42:12&lt;/sys_created_on&gt;&lt;sys_id&gt;52ea77f1287332107f441054a756e5f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_device_version&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_52ea77f1287332107f441054a756e5f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:42:12&lt;/sys_updated_on&gt;&lt;target_field&gt;u_frimware_version&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>378481148</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>aa6e2eea98b732107f44ab4eb33b8b08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ecb4b8e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_device_version</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>d2ea77f1f3733210be7ed02f30fd3af6</update_guid>
+<update_guid_history>d2ea77f1f3733210be7ed02f30fd3af6:378481148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_9dd9ffb1287332107f441054a756e5f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>HHD Imports</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_hhd_imports</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9dd9ffb1287332107f441054a756e5f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HHD Imports</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_9dd9ffb1287332107f441054a756e5f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:30</sys_updated_on><timeline_page/><title>HHD Imports</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1115808023</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ae6e2eea98b732107f44ab4eb33b8b04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6fbe40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>9dd9ffb1c0733210b4cb414b145d8ff4</update_guid>
+<update_guid_history>9dd9ffb1c0733210b4cb414b145d8ff4:1115808023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5b41a36dc1b332107f442963ae1ebd06</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:12:33</sys_created_on><sys_id>5b41a36dc1b332107f442963ae1ebd06</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident.u_holographic_handhled_device_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="incident">3541ef2dc1b332107f442963ae1ebd6e</sys_security_acl><sys_update_name>sys_security_acl_role_5b41a36dc1b332107f442963ae1ebd06</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:12:33</sys_updated_on><sys_user_role display_value="u_holographic_handhled_device_user" name="u_holographic_handhled_device_user">4c9993e1c1b332107f442963ae1ebd6b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1488058735</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ae6e2eea98b732107f44ab4eb33b8b07</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a6583090000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>incident</table>
+<target_name>incident.u_holographic_handhled_device_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>3571a7adb5b33210b6e1d2853ab7373c</update_guid>
+<update_guid_history>3571a7adb5b33210b6e1d2853ab7373c:1488058735</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_device_owner</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_owner" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Device Owner</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device Owner</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_owner</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:27</sys_created_on><sys_id>20d9ffb1287332107f441054a756e57a</sys_id><sys_name>Device Owner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_device_owner</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>862843528</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>e26e2eea98b732107f44ab4eb33b8b06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f78e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Device Owner</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>cdd9ffb15a733210e846157f6ebfa6c3</update_guid>
+<update_guid_history>cdd9ffb15a733210e846157f6ebfa6c3:862843528</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_d2ea7735287332107f441054a756e545</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD Cis"&gt;ed0a37f1287332107f441054a756e52c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_owner_location&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:42:12&lt;/sys_created_on&gt;&lt;sys_id&gt;d2ea7735287332107f441054a756e545&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_owner_location&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_d2ea7735287332107f441054a756e545&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:42:12&lt;/sys_updated_on&gt;&lt;target_field&gt;location&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>868944517</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>e26e2eea98b732107f44ab4eb33b8b09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ecb4baf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_owner_location</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>56ea7735e8733210a79fb830f0305846</update_guid>
+<update_guid_history>56ea7735e8733210a79fb830f0305846:868944517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_64d9bfb1287332107f441054a756e551</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Hhd Imports</label><live_feed_enabled>false</live_feed_enabled><name>u_hhd_imports</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">a7b225c3303132107f44f4e47971395a</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-24 07:37:26</sys_created_on><sys_id>64d9bfb1287332107f441054a756e551</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hhd Imports</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_64d9bfb1287332107f441054a756e551</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 07:37:26</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1856456376</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>e66e2eea98b732107f44ab4eb33b8b05</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ec6f7560000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>Hhd Imports</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>41d9ffb1127332103814194e134fa0c2</update_guid>
+<update_guid_history>41d9ffb1127332103814194e134fa0c2:-1856456376</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_1eea77f1287332107f441054a756e5f2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD Cis"&gt;ed0a37f1287332107f441054a756e52c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_device_owner&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-24 07:42:12&lt;/sys_created_on&gt;&lt;sys_id&gt;1eea77f1287332107f441054a756e5f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_device_owner&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_1eea77f1287332107f441054a756e5f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-24 07:42:12&lt;/sys_updated_on&gt;&lt;target_field&gt;assigned_to&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1942280036</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>e66e2eea98b732107f44ab4eb33b8b08</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1ecb4b740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_device_owner</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>9eea77f18c7332102acdbc690a0776f3</update_guid>
+<update_guid_history>9eea77f18c7332102acdbc690a0776f3:-1942280036</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_9a221f69c17332107f442963ae1ebde7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">b9a11f69c17332107f442963ae1ebde1</application><assessment/><device_type/><filter table="incident">service_offering=7e845b6dc17332107f442963ae1ebdd4^EQ<item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Incidents And Inquiries</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>incident</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handhled_device_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 10:07:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a221f69c17332107f442963ae1ebde7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Incidents And Inquiries</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_9a221f69c17332107f442963ae1ebde7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 10:57:07</sys_updated_on><timeline_page/><title>Incidents And Inquiries</title><uncancelable>false</uncancelable><view_name>HHD</view_name><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>427626994</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ea6e2eea98b732107f44ab4eb33b8b04</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a5761e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>incident</table>
+<target_name>Incidents And Inquiries</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b3ed13a9b4b332105ba2979a3d53ccb2</update_guid>
+<update_guid_history>b3ed13a9b4b332105ba2979a3d53ccb2:427626994,d0281fa1e1b3321072a81d022cf8dda2:928283406,c4821fa9cd7332102baf7c730394adcf:-328407786</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_2902afadc1b332107f442963ae1ebdca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:15:34</sys_created_on><sys_id>2902afadc1b332107f442963ae1ebdca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.asset_tag.u_hhd_asset_tagger</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd.asset_tag">ebf1afadc1b332107f442963ae1ebd7c</sys_security_acl><sys_update_name>sys_security_acl_role_2902afadc1b332107f442963ae1ebdca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:15:34</sys_updated_on><sys_user_role display_value="u_hhd_asset_tagger" name="u_hhd_asset_tagger">cda1ebadc1b332107f442963ae1ebdea</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2114169420</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ea6e2eea98b732107f44ab4eb33b8b07</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a68466f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd.asset_tag</table>
+<target_name>u_cmdb_ci_hardware_hhd.asset_tag.u_hhd_asset_tagger</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>c622e3ed48b33210b12134f6f75e2a98</update_guid>
+<update_guid_history>c622e3ed48b33210b12134f6f75e2a98:2114169420</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CMDB Workspace">c8ab76825371201032b7ddeeff7b1280</application>
+<category>customer</category>
+<comments/>
+<name>sn_cmdb_ws_ms_class_metadata_ce9f62555bd50110693e7da52d81c7bd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmdb_ws_ms_class_metadata"><sn_cmdb_ws_ms_class_metadata action="INSERT_OR_UPDATE"><ci_count_percent>100</ci_count_percent><sys_class_name>sn_cmdb_ws_ms_class_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 09:01:20</sys_created_on><sys_domain>global</sys_domain><sys_id>ce9f62555bd50110693e7da52d81c7bd</sys_id><sys_mod_count>22</sys_mod_count><sys_name/><sys_package display_value="CMDB Workspace" source="sn_cmdb_ws">c8ab76825371201032b7ddeeff7b1280</sys_package><sys_policy/><sys_scope display_value="CMDB Workspace">c8ab76825371201032b7ddeeff7b1280</sys_scope><sys_update_name>sn_cmdb_ws_ms_class_metadata_ce9f62555bd50110693e7da52d81c7bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-24 06:33:23</sys_updated_on><table>cmdb_ci_hardware</table></sn_cmdb_ws_ms_class_metadata></record_update>]]></payload>
+<payload_hash>-1966656346</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ee6e2eea98b732107f44ab4eb33b8b03</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1e8c49550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>cmdb_ci_hardware</table>
+<target_name/>
+<type>CMDB Workspace Multisource Class Metadat</type>
+<update_domain>global</update_domain>
+<update_guid>1a2b63714d3332106b143654f5595069</update_guid>
+<update_guid_history>1a2b63714d3332106b143654f5595069:-1966656346,062b637158333210d87e220b40e5b167:-2121401785,9d10cb21743332107d98e74ff1554b50:-1966656346,5910cb21ae333210927ec06b0f32874e:-2121401785,6417b70da0373210b9731069872c709d:-1966656346,6017b70d0737321085063ff40765939b:-2121401785,d8488b45703332106170a0b43213dcc7:-1966656346,c4488b459e333210dd4a1313aa1cdfc5:-2121401785,e9ddbdf34f223210c2c8e0a4048fdb4b:-1966656346,99ddbdf38e223210c0b365d091efc449:-2121401785,4f2b6e70834e7a1043c2973f44363e4d:-1966656346,0b2b6e703b4e7a10ae05aceee67bbb4b:-2121401785,8991ed2424063a10730f0acc998d2d10:-1966656346,4591ed248e063a1093439d5c652d7e0e:-2121401785,d3f710584dcab6102bca575ec4ff8e85:-1966656346,9ff7105878cab610fb403d5b6728f282:-2121401785,f56e8ffbe1b17610f295c132b3d57eaf:-1966656346,b16e8ffb05b17610a4be5805d15daaad:-2121401785,c8d402efa679f21036897eaafdd35509:-1966656346,84d402ef0c79f210ac116ae2ff1d7e07:-2121401785,c63bb0d7b471b210101c0636b6269b39:-1966656346,463bb0d71b71b21035c37b73c3630237:-2121401785,ca3bb0d71871b2101ede0c78394bff33:-1966656346</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3541ef2dc1b332107f442963ae1ebd6e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offering=7e845b6dc17332107f442963ae1ebdd4^EQ<item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>u_holographic_handheld_hhd_user role required to write HHD incident records</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:11:44</sys_created_on><sys_id>3541ef2dc1b332107f442963ae1ebd6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3541ef2dc1b332107f442963ae1ebd6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:11:44</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1545342911</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ee6e2eea98b732107f44ab4eb33b8b06</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a64c3910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>794127ad4cb332107fdb170e533f1e0a</update_guid>
+<update_guid_history>794127ad4cb332107fdb170e533f1e0a:1545342911</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_cda1ebadc1b332107f442963ae1ebdea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_hhd_asset_tagger</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-23 11:13:36</sys_created_on><sys_id>cda1ebadc1b332107f442963ae1ebdea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hhd_asset_tagger</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_cda1ebadc1b332107f442963ae1ebdea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-23 11:13:36</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1258375907</payload_hash>
+<remote_update_set display_value="Module_4">a66e2eea98b732107f44ab4eb33b8b03</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:03:25</sys_created_on>
+<sys_id>ee6e2eea98b732107f44ab4eb33b8b09</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d1a667b1e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:03:25</sys_updated_on>
+<table/>
+<target_name>u_hhd_asset_tagger</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>99b16fade3b332100cfd815dbf496d53</update_guid>
+<update_guid_history>99b16fade3b332100cfd815dbf496d53:1258375907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
 </unload>

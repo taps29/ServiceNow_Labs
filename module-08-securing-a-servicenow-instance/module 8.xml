@@ -1,26 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<unload unload_date="2026-03-26 09:44:34">
-<sys_update_set action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-26 10:06:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Global">global</application>
-<base_update_set display_value=""/>
-<completed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</completed_by>
-<completed_on>2026-03-26 09:44:16</completed_on>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
 <description/>
-<install_date/>
-<installed_from/>
-<is_default>false</is_default>
-<merged_to display_value=""/>
+<inserted/>
 <name>Module_8</name>
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
-<remote_sys_id display_value=""/>
-<state>complete</state>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1e97ee2298b732107f44ab4eb33b8b06</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2026-03-26 09:33:51</sys_created_on>
-<sys_id>1e97ee2298b732107f44ab4eb33b8b06</sys_id>
-<sys_mod_count>1</sys_mod_count>
+<sys_created_on>2026-03-26 10:06:49</sys_created_on>
+<sys_id>043f6a2e98b732107f44ab4eb33b8bd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2026-03-26 09:44:16</sys_updated_on>
-</sys_update_set>
+<sys_updated_on>2026-03-26 10:06:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_89133d43307532107f44f4e479713945</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Sets the session timeout, in minutes. Values exceeding 1440 minutes will be treated as one day.</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.ui.session_timeout</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-12-18 08:55:34</sys_created_on><sys_id>89133d43307532107f44f4e479713945</sys_id><sys_mod_count>2</sys_mod_count><sys_name>glide.ui.session_timeout</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_89133d43307532107f44f4e479713945</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:38:51</sys_updated_on><type>integer</type><value>60</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=89133d43307532107f44f4e479713945"/></record_update>]]></payload>
+<payload_hash>796870510</payload_hash>
+<remote_update_set display_value="Module_8">043f6a2e98b732107f44ab4eb33b8bd4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:49</sys_created_on>
+<sys_id>883f6a2e98b732107f44ab4eb33b8bd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d2982d22e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:49</sys_updated_on>
+<table/>
+<target_name>glide.ui.session_timeout</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>76c8eae29db732107f5604af2f3c4a61</update_guid>
+<update_guid_history>76c8eae29db732107f5604af2f3c4a61:796870510,5c3e0fc71279721068b5cbe482905c79:1582932228,103e0fc7547972108aa5593ebe27c347:-1094505365</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_7ba34f105b030010da168d8fa881c7e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>When property is set to true, mobile app will check that device encryption is enabled. If encryption is not enabled, user won't be allowed to log into current instance on mobile</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.sg.device_encryption_enabled</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-14 23:11:07</sys_created_on><sys_id>7ba34f105b030010da168d8fa881c7e4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>glide.sg.device_encryption_enabled</sys_name><sys_package display_value="Mobile plugin" source="com.glide.sg">5a35218f303132107f44f4e4797139ad</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_7ba34f105b030010da168d8fa881c7e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:37:10</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=7ba34f105b030010da168d8fa881c7e4"/></record_update>]]></payload>
+<payload_hash>86386562</payload_hash>
+<remote_update_set display_value="Module_8">043f6a2e98b732107f44ab4eb33b8bd4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:49</sys_created_on>
+<sys_id>c43f6a2e98b732107f44ab4eb33b8bd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d2981501b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:49</sys_updated_on>
+<table/>
+<target_name>glide.sg.device_encryption_enabled</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>a2686ea27cb732103b29648be754dde4</update_guid>
+<update_guid_history>a2686ea27cb732103b29648be754dde4:86386562,3d686ea231b73210d6f5241b3df9699b:100737485</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
 </unload>

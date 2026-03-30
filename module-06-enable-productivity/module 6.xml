@@ -1,26 +1,190 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<unload unload_date="2026-03-26 06:15:27">
-<sys_update_set action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-26 10:06:06">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Global">global</application>
-<base_update_set display_value=""/>
-<completed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</completed_by>
-<completed_on>2026-03-26 06:15:12</completed_on>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
 <description/>
-<install_date/>
-<installed_from/>
-<is_default>false</is_default>
-<merged_to display_value=""/>
+<inserted/>
 <name>Module_6</name>
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
-<remote_sys_id display_value=""/>
-<state>complete</state>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6f4eedea987332107f44ab4eb33b8bd4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2026-03-26 05:23:29</sys_created_on>
-<sys_id>6f4eedea987332107f44ab4eb33b8bd4</sys_id>
-<sys_mod_count>1</sys_mod_count>
+<sys_created_on>2026-03-26 10:06:05</sys_created_on>
+<sys_id>610fe62e98b732107f44ab4eb33b8be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2026-03-26 06:15:12</sys_updated_on>
-</sys_update_set>
+<sys_updated_on>2026-03-26 10:06:05</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_aa00b5ae987332107f44ab4eb33b8b6f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</macroponent><name>HHD Incidents - by pilot, inquiry, firmware</name><properties>{"selectedElements":[],"showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"newReporting":false,"additionalGroupByConfig":[{"id":"u_pilot","label":"Pilot"},{"id":"category","label":"Category"},{"id":"subcategory","label":"Subcategory"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":true,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"service_offering=7e845b6dc17332107f442963ae1ebdd4","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"incident","label":"Incident"}],"filterConfigurations":[],"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"u_pilot","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"sortBy":"value","description":""}</properties><requested_by/><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 05:30:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa00b5ae987332107f44ab4eb33b8b6f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HHD Incidents - by pilot, inquiry, firmware</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_visualization_aa00b5ae987332107f44ab4eb33b8b6f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 05:30:54</sys_updated_on><type>Donut</type></par_visualization></record_update>]]></payload>
+<payload_hash>-2060315671</payload_hash>
+<remote_update_set display_value="Module_6">610fe62e98b732107f44ab4eb33b8be1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:06</sys_created_on>
+<sys_id>210fe62e98b732107f44ab4eb33b8be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d289fcd440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:06</sys_updated_on>
+<table/>
+<target_name>HHD Incidents - by pilot, inquiry, firmware</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>6200b5ae26733210b55e97139deded72</update_guid>
+<update_guid_history>6200b5ae26733210b55e97139deded72:-2060315671</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_ed2ee9ea987332107f44ab4eb33b8b56</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Infinity HHD Product monitoring">e92e25ea987332107f44ab4eb33b8be8</dashboard><dashboard_tab display_value="New Tab 1">652ee9ea987332107f44ab4eb33b8b22</dashboard_tab><layout>[{"sys_id":"20513dee987332107f44ab4eb33b8b21","x":0,"y":0,"w":47,"h":21,"name":"HHD Incidents - by pilot, inquiry, firmware","component_id":"a2b0596cec6b9d49dd1ff9bf76b5084b","component_props":"{\"selectedElements\":[],\"showDataLabels\":false,\"dataLabelsType\":\"both\",\"truncationType\":\"end\",\"showRegister\":true,\"registerPosition\":\"bottom\",\"registerOrientation\":\"horizontal\",\"showRegisterOnSameLine\":false,\"showRegisterValue\":false,\"legendHorizontalAlignment\":\"center\",\"legendExpandToFit\":false,\"showRegisterPercentage\":false,\"newReporting\":false,\"additionalGroupByConfig\":[{\"id\":\"u_pilot\",\"label\":\"Pilot\"},{\"id\":\"category\",\"label\":\"Category\"},{\"id\":\"subcategory\",\"label\":\"Subcategory\"}],\"showHeader\":true,\"showTotalAggregate\":false,\"showSubAggregate\":false,\"showFirstGroupAggregate\":false,\"showSecondGroupAggregate\":false,\"hideMatrixAggregate\":false,\"wrapTitle\":false,\"showHeaderSeparator\":false,\"contextMenuActions\":[],\"headingLevel\":2,\"showBorder\":true,\"bareBorder\":false,\"telemetry\":null,\"showDataPassthrough\":false,\"refreshRequest\":\"\",\"showAdditionalGroupBySelector\":true,\"dataPassthrough\":null,\"sortByOrder\":\"desc\",\"showChange\":false,\"showChangePercentage\":false,\"showTarget\":false,\"showForecast\":false,\"showForecastRange\":false,\"showTrend\":false,\"showConfidenceBand\":false,\"showGapPercentage\":false,\"showSparkline\":false,\"showMetricLabel\":false,\"showThreshold\":false,\"showComment\":false,\"followFilters\":true,\"showFilterIcon\":true,\"enableRealTimeUpdate\":false,\"enableDrilldown\":true,\"enableClickAndStay\":false,\"showDataTable\":false,\"enableCustomEmptyState\":false,\"emptyStateIllustration\":\"no-data\",\"emptyStateHeading\":\"No data available.\",\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateAlignment\":\"vertical-centered\",\"hideDevSettings\":false,\"configPropModifiers\":{},\"showMaximumRange\":false,\"allowChangeDateRange\":false,\"showDateRangeByDefault\":false,\"applyDateRange\":false,\"numberOfPeriods\":3,\"showAbsolutePeriod\":false,\"scoreType\":null,\"showChangeFrom\":\"previous\",\"period\":\"M\",\"useDataCache\":false,\"cacheExpirationTime\":0,\"showCacheTime\":true,\"dateFormat\":\"default\",\"showRefresh\":true,\"colorConfig\":{\"type\":\"default\"},\"componentId\":\"b8do2jsn\",\"configVersion\":\"23.0.0-ci-SNAPSHOT\",\"dataSources\":[{\"allowRealTime\":true,\"dataCategories\":[\"group\",\"simple\",\"trend\"],\"id\":\"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=\",\"isDatabaseView\":false,\"filterQuery\":\"service_offering=7e845b6dc17332107f442963ae1ebdd4\",\"preferredVisualizations\":[\"d24d53f60350de7a652caf3188a46ed2\"],\"sourceType\":\"table\",\"tableOrViewName\":\"incident\",\"label\":\"Incident\"}],\"filterConfigurations\":[],\"groupBy\":[{\"disableRanges\":false,\"groupBy\":[{\"dataSource\":\"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=\",\"groupByField\":\"u_pilot\",\"isRange\":false,\"isChoice\":false,\"isPaBucket\":false}],\"maxNumberOfGroups\":10,\"numberOfGroupsBasedOn\":\"NO_OF_GROUP_BASED_ON_PER_METRIC\",\"showOthers\":false}],\"metrics\":[{\"aggregateFunction\":\"COUNT\",\"axisId\":\"primary\",\"dataSource\":\"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=\",\"id\":\"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==\",\"numberFormat\":{\"customFormat\":false}}],\"sortBy\":\"value\",\"description\":\"\"}","stored_component":"aa00b5ae987332107f44ab4eb33b8b6f","can_edit":true}]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 05:22:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ed2ee9ea987332107f44ab4eb33b8b56</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_canvas_ed2ee9ea987332107f44ab4eb33b8b56</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 05:36:31</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>1706066709</payload_hash>
+<remote_update_set display_value="Module_6">610fe62e98b732107f44ab4eb33b8be1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:05</sys_created_on>
+<sys_id>250fe62e98b732107f44ab4eb33b8be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d28a4efdc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:05</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>605131224fb332107267e3403477033c</update_guid>
+<update_guid_history>605131224fb332107267e3403477033c:1706066709,ed2ee9ea96733210166f0650ecd9c057:-2111618225</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_20513dee987332107f44ab4eb33b8b21</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">ed2ee9ea987332107f44ab4eb33b8b56</canvas><component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component><component_props>{"selectedElements":[],"showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"newReporting":false,"additionalGroupByConfig":[{"id":"u_pilot","label":"Pilot"},{"id":"category","label":"Category"},{"id":"subcategory","label":"Subcategory"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":true,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"service_offering=7e845b6dc17332107f442963ae1ebdd4","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"incident","label":"Incident"}],"filterConfigurations":[],"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"u_pilot","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"sortBy":"value","description":""}</component_props><h>21</h><name>HHD Incidents - by pilot, inquiry, firmware</name><stored_component display_value="HHD Incidents - by pilot, inquiry, firmware">aa00b5ae987332107f44ab4eb33b8b6f</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 05:36:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>20513dee987332107f44ab4eb33b8b21</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HHD Incidents - by pilot, inquiry, firmware</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_widget_20513dee987332107f44ab4eb33b8b21</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 05:36:31</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>901973082</payload_hash>
+<remote_update_set display_value="Module_6">610fe62e98b732107f44ab4eb33b8be1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:06</sys_created_on>
+<sys_id>6d0fe62e98b732107f44ab4eb33b8be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d28a4ef4e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:06</sys_updated_on>
+<table/>
+<target_name>HHD Incidents - by pilot, inquiry, firmware</target_name>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>64513deeca733210d904df1e0fad9723</update_guid>
+<update_guid_history>64513deeca733210d904df1e0fad9723:901973082</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_user_metadata_292ee9ea987332107f44ab4eb33b8b1b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>24</cache_expiration_time><card_bg_image/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2026-03-26 05:22:39</created_on><dashboard display_value="Infinity HHD Product monitoring">e92e25ea987332107f44ab4eb33b8be8</dashboard><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_updated_on>2026-03-26 05:37:16</last_updated_on><po_project_id_list>[]</po_project_id_list><refresh_information>false</refresh_information><refresh_interval>-1</refresh_interval><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 05:22:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>292ee9ea987332107f44ab4eb33b8b1b</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_user_metadata_292ee9ea987332107f44ab4eb33b8b1b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 05:37:16</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors></par_dashboard_user_metadata></record_update>]]></payload>
+<payload_hash>-1317881047</payload_hash>
+<remote_update_set display_value="Module_6">610fe62e98b732107f44ab4eb33b8be1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:06</sys_created_on>
+<sys_id>a90fe62e98b732107f44ab4eb33b8be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d28a5a1b50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:06</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>3f71f12237b332102aeb7e18b2eb7dbc</update_guid>
+<update_guid_history>3f71f12237b332102aeb7e18b2eb7dbc:-1317881047,b451312214b3321058979a33e03f7740:-118317326,252ee9ea5c733210c642d8ec853d251e:431881595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_3a027d2298b332107f44ab4eb33b8bb1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition table="incident"&gt;priority=1^active=true^service_offering=7e845b6dc17332107f442963ae1ebdd4^EQ&lt;item display_value="1 - Critical" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Critical Incident ${URI_REF} has been created for Infinity (HHD) service offering.&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;P1 HHD Incident&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;business_service.owned_by,service_offering.owned_by&lt;/recipient_fields&gt;&lt;recipient_groups name="Training Technology Support"&gt;efe453adc17332107f442963ae1ebd73&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt; IMPORTANT! P1 Infinity (HHD) Incident${number}&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-26 05:47:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3a027d2298b332107f44ab4eb33b8bb1&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;P1 HHD Incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_3a027d2298b332107f44ab4eb33b8bb1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-26 05:53:13&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1558950460</payload_hash>
+<remote_update_set display_value="Module_6">610fe62e98b732107f44ab4eb33b8be1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:06</sys_created_on>
+<sys_id>e10fe62e98b732107f44ab4eb33b8be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d28b43c450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:06</sys_updated_on>
+<table>incident</table>
+<target_name>P1 HHD Incident</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>ed257126cbb332106933dc080c4359bf</update_guid>
+<update_guid_history>ed257126cbb332106933dc080c4359bf:1558950460,8284bde22bb332102e0af050cacf5049:-1738529624,5564bde2dbb33210a45b073fa8053b05:1829634399,09e37da278b33210b0120ee0baf98dd5:-567032964</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_permission_bb71f12298b332107f44ab4eb33b8bb8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>true</can_write><dashboard display_value="Infinity HHD Product monitoring">e92e25ea987332107f44ab4eb33b8be8</dashboard><group display_value="Training Technology Support" name="Training Technology Support">efe453adc17332107f442963ae1ebd73</group><owner>false</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 05:37:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb71f12298b332107f44ab4eb33b8bb8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>e92e25ea987332107f44ab4eb33b8be8</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_permission_bb71f12298b332107f44ab4eb33b8bb8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 05:37:16</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+<payload_hash>343248519</payload_hash>
+<remote_update_set display_value="Module_6">610fe62e98b732107f44ab4eb33b8be1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:05</sys_created_on>
+<sys_id>e50fe62e98b732107f44ab4eb33b8be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d28a5a17a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:05</sys_updated_on>
+<table/>
+<target_name>e92e25ea987332107f44ab4eb33b8be8</target_name>
+<type>PAR Dashboard Permission</type>
+<update_domain>global</update_domain>
+<update_guid>f371f12284b3321031fbe149671cb3ba</update_guid>
+<update_guid_history>f371f12284b3321031fbe149671cb3ba:343248519</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
 </unload>

@@ -1,26 +1,252 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<unload unload_date="2026-03-26 09:30:11">
-<sys_update_set action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-26 10:06:28">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Global">global</application>
-<base_update_set display_value=""/>
-<completed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</completed_by>
-<completed_on>2026-03-26 09:30:01</completed_on>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
 <description/>
-<install_date/>
-<installed_from/>
-<is_default>false</is_default>
-<merged_to display_value=""/>
+<inserted/>
 <name>Module_7</name>
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
-<remote_sys_id display_value=""/>
-<state>complete</state>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7ab95222987732107f44ab4eb33b8bb0</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2026-03-26 08:33:11</sys_created_on>
-<sys_id>7ab95222987732107f44ab4eb33b8bb0</sys_id>
-<sys_mod_count>1</sys_mod_count>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>b21f6a2e98b732107f44ab4eb33b8b69</sys_id>
+<sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2026-03-26 09:30:01</sys_updated_on>
-</sys_update_set>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_bf1d96e3c0a801640190725e63f8ac80</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="bf1d96e3c0a801640190725e63f8ac80" sys_domain="global" table="incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>2920262a987732107f44ab4eb33b8b2f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>caller_id</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e120262a987732107f44ab4eb33b8b30</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6920262a987732107f44ab4eb33b8b30</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>subcategory</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>ed20262a987732107f44ab4eb33b8b30</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>business_service</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6520262a987732107f44ab4eb33b8b31</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>service_offering</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e920262a987732107f44ab4eb33b8b31</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6120262a987732107f44ab4eb33b8b32</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_pilot</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e520262a987732107f44ab4eb33b8b32</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>universal_request</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6d20262a987732107f44ab4eb33b8b32</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>route_reason</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e120262a987732107f44ab4eb33b8b33</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6920262a987732107f44ab4eb33b8b33</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>contact_type</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>ed20262a987732107f44ab4eb33b8b33</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6520262a987732107f44ab4eb33b8b34</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>hold_reason</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e920262a987732107f44ab4eb33b8b34</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>impact</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6120262a987732107f44ab4eb33b8b35</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e520262a987732107f44ab4eb33b8b35</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6d20262a987732107f44ab4eb33b8b35</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e120262a987732107f44ab4eb33b8b36</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6920262a987732107f44ab4eb33b8b36</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_escalate_to_manufacturer</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>ed20262a987732107f44ab4eb33b8b36</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manufacturer_contact</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6520262a987732107f44ab4eb33b8b37</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e920262a987732107f44ab4eb33b8b37</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>22</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6120262a987732107f44ab4eb33b8b38</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>23</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>e520262a987732107f44ab4eb33b8b38</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cxs_table_search.xml</element><position>24</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:06</sys_created_on><sys_id>6d20262a987732107f44ab4eb33b8b38</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2004-07-14 19:25:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>bf1d96e3c0a801640190725e63f8ac80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_overrides/><sys_package display_value="Incident Updates" source="com.snc.incident.updates">c9c0394b303532107f44f4e479713937</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_bf1d96e3c0a801640190725e63f8ac80</sys_update_name><sys_updated_by>system_bootstrap</sys_updated_by><sys_updated_on>2004-12-13 18:05:34</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>507545202</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>3a1f6a2e98b732107f44ab4eb33b8b83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d29603ffe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>Incident</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>6d20262aa6773210f1af98506e0ff93b</update_guid>
+<update_guid_history>6d20262aa6773210f1af98506e0ff93b:507545202,43799aee363732108eab6299f1a7aae6:-1464427281,c153dfe9de733210a910fbd92739f3ea:226000523,720013e59a733210edba14e2f9aad570:-1156929319</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_efc1ee6a987732107f44ab4eb33b8bed</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;service_offering=7e845b6dc17332107f442963ae1ebdd4^priority=1^EQ&lt;item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/&gt;&lt;item display_value="1 - Critical" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;populate manufacturer contact name&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-26 09:12:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;efc1ee6a987732107f44ab4eb33b8bed&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;populate manufacturer contact name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_efc1ee6a987732107f44ab4eb33b8bed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-26 09:18:07&lt;/sys_updated_on&gt;&lt;template&gt;u_manufacturer_contactSAMEASservice_offering.manufacturer.contact^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=efc1ee6a987732107f44ab4eb33b8bed"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-407663459</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>3e1f6a2e98b732107f44ab4eb33b8b82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d296fd2f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>populate manufacturer contact name</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>b604ee2eca773210f586d99be382a49d</update_guid>
+<update_guid_history>b604ee2eca773210f586d99be382a49d:-407663459,bda2e2eac677321006dcdeb4750ffb17:-384689647</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_incident_u_manufacturer_contact</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_manufacturer_contact" table="incident"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>manufacturer contact</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_manufacturer_contact</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>incident</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:05</sys_created_on><sys_id>1d20e22a987732107f44ab4eb33b8b9a</sys_id><sys_name>manufacturer contact</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_incident_u_manufacturer_contact</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1617331456</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>761f6a2e98b732107f44ab4eb33b8b69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d29603da20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.manufacturer contact</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e120262a7c77321042dac91f56f98311</update_guid>
+<update_guid_history>e120262a7c77321042dac91f56f98311:1617331456,e520e22ac47732108d16b4769b18a4fe:907855301</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_c28ede66987732107f44ab4eb33b8b24</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;priority=1^service_offering=7e845b6dc17332107f442963ae1ebdd4^EQ&lt;item display_value="1 - Critical" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Display Escalation for Infinity (HHD) service offerings when Priority = 1 - Critical&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-26 08:55:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c28ede66987732107f44ab4eb33b8b24&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Display Escalation for Infinity (HHD) service offerings when Priority = 1 - Critical&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_c28ede66987732107f44ab4eb33b8b24&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-26 08:55:09&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2001011766</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>761f6a2e98b732107f44ab4eb33b8b83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d295acaa00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>Display Escalation for Infinity (HHD) service offerings when Priority = 1 - Critical</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>56ce52a6ec7732102e09fbddaf43be4b</update_guid>
+<update_guid_history>56ce52a6ec7732102e09fbddaf43be4b:2001011766</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_4171ee6a987732107f44ab4eb33b8b23</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;service_offering=7e845b6dc17332107f442963ae1ebdd4^u_escalate_to_manufacturer=true^EQ&lt;item display_table="service_offering" display_value="Infinity(HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="7e845b6dc17332107f442963ae1ebdd4"/&gt;&lt;item endquery="false" field="u_escalate_to_manufacturer" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;Reminder: To escalate to manufacturer, send mail to Manufacturer contact.&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;Escalate to manufacturer reminder&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-26 09:08:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4171ee6a987732107f44ab4eb33b8b23&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Escalate to manufacturer reminder&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4171ee6a987732107f44ab4eb33b8b23&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-26 09:08:11&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4171ee6a987732107f44ab4eb33b8b23"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1955015317</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>7a1f6a2e98b732107f44ab4eb33b8b82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d2966bc1d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>Escalate to manufacturer reminder</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>99c1e2aab1773210c71c08b5de1a6c4f</update_guid>
+<update_guid_history>99c1e2aab1773210c71c08b5de1a6c4f:-1955015317</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_a2e0a26a987732107f44ab4eb33b8b60</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_manufacturer_contact</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:04:50</sys_created_on><sys_id>a2e0a26a987732107f44ab4eb33b8b60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_manufacturer_contact</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_a2e0a26a987732107f44ab4eb33b8b60</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:04:50</sys_updated_on><table>incident</table><ui_policy display_value="Display Escalation for Infinity (HHD) service offerings when Priority = 1 - Critical">c28ede66987732107f44ab4eb33b8b24</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a2e0a26a987732107f44ab4eb33b8b60"/></record_update>]]></payload>
+<payload_hash>1988719657</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>b21f6a2e98b732107f44ab4eb33b8b83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d2963a9050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>u_manufacturer_contact</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>d401e26ac7773210c70e2cf14eeda6f0</update_guid>
+<update_guid_history>d401e26ac7773210c70e2cf14eeda6f0:1988719657</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_incident_u_manufacturer_contact_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_manufacturer_contact" label="manufacturer contact" language="en" table="incident"><sys_documentation action="INSERT_OR_UPDATE"><element>u_manufacturer_contact</element><help/><hint/><label>manufacturer contact</label><language>en</language><name>incident</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 09:01:05</sys_created_on><sys_id>2120e22a987732107f44ab4eb33b8bf1</sys_id><sys_mod_count>3</sys_mod_count><sys_name>manufacturer contact</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_incident_u_manufacturer_contact_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 09:01:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2068757397</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>b61f6a2e98b732107f44ab4eb33b8b82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d29603e340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.manufacturer contact</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ed20262afc7732103d91eb34c211ca20</update_guid>
+<update_guid_history>ed20262afc7732103d91eb34c211ca20:-2068757397,e520262af1773210adf023ec34ad9e17:-2068757397,a920262a3a773210960d6143ed212700:528907303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_7ede56a6987732107f44ab4eb33b8b8d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_escalate_to_manufacturer</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-26 08:55:57</sys_created_on><sys_id>7ede56a6987732107f44ab4eb33b8b8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_escalate_to_manufacturer</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_7ede56a6987732107f44ab4eb33b8b8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-26 08:55:57</sys_updated_on><table>incident</table><ui_policy display_value="Display Escalation for Infinity (HHD) service offerings when Priority = 1 - Critical">c28ede66987732107f44ab4eb33b8b24</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7ede56a6987732107f44ab4eb33b8b8d"/></record_update>]]></payload>
+<payload_hash>1065759593</payload_hash>
+<remote_update_set display_value="Module_7">b21f6a2e98b732107f44ab4eb33b8b69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-26 10:06:27</sys_created_on>
+<sys_id>fe1f6a2e98b732107f44ab4eb33b8b82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d295b86cd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-26 10:06:27</sys_updated_on>
+<table>incident</table>
+<target_name>u_escalate_to_manufacturer</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>c2fe92a60c77321043ef89a2fbea4990</update_guid>
+<update_guid_history>c2fe92a60c77321043ef89a2fbea4990:1065759593</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
 </unload>

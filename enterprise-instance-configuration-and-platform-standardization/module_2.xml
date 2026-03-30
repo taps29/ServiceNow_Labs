@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-30 07:01:17">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>module 2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f6ee5af37c7332107f44d5bceb629594</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-30 07:01:16</sys_created_on>
+<sys_id>891baa337cb332107f44d5bceb6295d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-30 07:01:16</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_3458de2aff7102007729ffffffffff7c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Banner image for UI16</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.product.image.light</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-08-13 22:49:27</sys_created_on><sys_id>3458de2aff7102007729ffffffffff7c</sys_id><sys_mod_count>44</sys_mod_count><sys_name>glide.product.image.light</sys_name><sys_package display_value="UI16" source="com.glide.ui.ui16">1b24294b303132107f44f4e4797139ef</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_3458de2aff7102007729ffffffffff7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-30 06:17:58</sys_updated_on><type>uploaded_image</type><value>fe2162f77c7332107f44d5bceb62956c.iix</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=3458de2aff7102007729ffffffffff7c"/></record_update>]]></payload>
+<payload_hash>889425340</payload_hash>
+<remote_update_set display_value="module 2">891baa337cb332107f44d5bceb6295d4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-30 07:01:16</sys_created_on>
+<sys_id>8d1baa337cb332107f44d5bceb6295d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d3d64543e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-30 07:01:16</sys_updated_on>
+<table/>
+<target_name>glide.product.image.light</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>ba21e2f71b733210cccd10cd6eecabd0</update_guid>
+<update_guid_history>ba21e2f71b733210cccd10cd6eecabd0:889425340</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_4fad40f6c611228e01172f8f67a17549</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Browser tab title</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.product.name</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2005-01-08 00:15:49</sys_created_on><sys_id>4fad40f6c611228e01172f8f67a17549</sys_id><sys_mod_count>7</sys_mod_count><sys_name>glide.product.name</sys_name><sys_package display_value="System (apps/system2)" source="apps/system2">5502e103303132107f44f4e4797139bf</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_4fad40f6c611228e01172f8f67a17549</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-30 06:20:55</sys_updated_on><type>string</type><value>DEV</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=4fad40f6c611228e01172f8f67a17549"/></record_update>]]></payload>
+<payload_hash>-580276752</payload_hash>
+<remote_update_set display_value="module 2">891baa337cb332107f44d5bceb6295d4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-30 07:01:16</sys_created_on>
+<sys_id>c51baa337cb332107f44d5bceb6295d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19d3d6708130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-30 07:01:16</sys_updated_on>
+<table/>
+<target_name>glide.product.name</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>c2d1223b5e733210882425a8acf882fd</update_guid>
+<update_guid_history>c2d1223b5e733210882425a8acf882fd:-580276752,42d1223b767332101d6a9f9c601593fb:1369617114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
